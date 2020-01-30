@@ -64,6 +64,7 @@ public class PersonDataGUI {
 		container.add(label, BorderLayout.NORTH);
 		container.add(scrollPane, BorderLayout.CENTER);
 
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setVisible(true);
 	}
 }
